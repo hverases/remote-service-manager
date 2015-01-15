@@ -1,0 +1,7 @@
+DirectoryIndex app_remote.php
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType text/css "access plus 60 days"
+	ExpiresByType application/javascript "access plus 60 days"
+	ExpiresByType application/x-font-woff "access plus 60 days"
+</IfModule>

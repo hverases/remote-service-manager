@@ -1,0 +1,7 @@
+{
+"timeout1":"Se ha excedido el tiempo de espera al intentar conectar con el servidor",
+"timeout2":"Imposible conectar con el servidor",
+"timeoutAction":"No se hizo la operación '%1 %2' porque no se pudo conectar con el servidor",
+"reconnect":"Reconectar",
+"gettingStatus":"Obteniendo datos de estado del servidor..."
+}

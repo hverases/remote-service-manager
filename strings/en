@@ -1,0 +1,7 @@
+{
+"timeout1":"Connection to server timed out",
+"timeout2":"Unable to connect",
+"timeoutAction":"The operation '%1 %2' cannot be done because server timed out",
+"reconnect":"Reconnect",
+"gettingStatus":"Getting status data from server..."
+}

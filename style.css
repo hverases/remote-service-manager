@@ -1,0 +1,77 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* ------ */
+
+body { font-size: 1.2em; font-weight: normal; padding: 1em 0.5em}
+table { border-collapse: collapse; }
+th, td { padding: 0.5em 1em; }
+#div_messages { margin: 0.5em 0 }
+#div_action { margin: 0.5em 0 0 0 }
+
+@font-face {
+	font-family: custom-pictograms-font;
+	src: url(fonts/pictograms.woff),
+	url(fonts/pictograms.ttf) format('truetype');
+}
+
+td, button { font-family: custom-pictograms-font }
+
+.red { color:red }
+.green { color:green }
+.amber { color:#ffbf00 }
+
+.icon-cycle:before { content: "\e600" }
+.icon-play:before { content: "\e601" }
+.icon-record:before { content: "\e602" }
+.icon-stop:before { content: "\e603" }
+
+#reconnect-button {
+	display:none;
+	font-family:initial
+}
