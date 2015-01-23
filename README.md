@@ -78,7 +78,8 @@ There are two configuration files, both in JSON format:
 	</pre>
 	</li>
 </ul>
-
+<br>
+<h3>Final notes</h3>
 At the moment, the error messages are available in two languages: English (en)
 and Spanish (es). If you want to translate these messages to your language, you
 will find the English original messages in the <b>strings</b> folder. You only 
